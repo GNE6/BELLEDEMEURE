@@ -1,0 +1,18 @@
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+
+Options +FollowSymlinks
+RewriteEngine on
+RewriteOptions Inherit
+
+RewriteRule	^accueil$ index.php	[L]	
+RewriteRule	^qui-sommes-nous$ qui_sommes_nous.php [L]	
+RewriteRule	^nos-services$ services.php [L]
+RewriteRule	^patrimoine-foncier$ nos_terrains.php [L]
+RewriteRule	^amaryllis$ amaryllis.php [L]
+RewriteRule	^espace-clients$ login.php [L]
+RewriteRule	^contact-us$ contacts.php [L]
+RewriteRule	^page-en-construction$ en_construction.php [L]
+
+

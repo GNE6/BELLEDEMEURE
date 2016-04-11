@@ -1,0 +1,99 @@
+﻿<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Belle demeure</h3>
+
+				<p class="footer-links">
+					<a href="accueil">Accueil</a>
+					·
+					<a href="qui-sommes-nous">Qui sommes-nous</a>
+					·
+					<a href="nos-services">Nos services</a>
+					·
+					<a href="espace-clients">Espace clients</a>
+					·
+					<a href="contact-us">Contacts</a>
+				</p>
+				<br><br/>
+				<p >
+				<form action='/phpmynewsletter-2.0/subscription.php' method='post' target='_blank'>
+				<input type='text' name='email_addr' value='' placeholder='votre Email' size='20'>
+				<input type='hidden' name='list_id' value='1'>
+				<input type='hidden' name='op' value='join'>
+				<input type='submit' value='souscrire à la newsletter'>
+				</form>
+				</p>
+				<p class="footer-company-name">Belle demeure &copy; 2015</p>
+				<br />
+				
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Cocody Angré star 12, face CNPS<span>Abidjan, Côte d'Ivoire</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>	+225 22 50 02 65<br/>
+						+225 08 83 89 96
+					</p>		 
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p>
+					<a href="mailto:info@belledemeure-ci.com">info@belledemeure-ci.com</a><br/>
+					<a href="mailto:international@belledemeure-ci.com">international@belledemeure-ci.com</a><br/>
+					<a href="mailto:malorimarie@hotmail.com">malorimarie@hotmail.com</a><br/>
+					</p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>Liens utiles</span>
+					<a href = "http://www.ministere-construction.ci/">Le Ministère de la construction</a>
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="https://www.facebook.com/Belle-Demeure-1571250613146997/?ref=ts&fref=ts"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					
+				</div>
+			</div>
+
+		</footer>
+		
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Script to Activate the Carousel -->
+	<script>
+		$('.carousel').carousel({
+			interval: 4000 //changes the speed
+		})
+	</script>
+	<script src="lightbox-master/dist/ekko-lightbox.js"></script>
+	<script>
+		$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+		event.preventDefault();
+		$(this).ekkoLightbox();
+		});
+	</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-70354522-1', 'auto');
+	  ga('send', 'pageview');
+	</script>

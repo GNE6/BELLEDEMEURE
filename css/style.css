@@ -1,0 +1,412 @@
+/*
+		---- Entreprise: Belle Demeure
+		---- Site web: belledemeure-ci.com
+		---- Developpeurs: Dominique MENSAH , Konan N'GUESSAN
+		---- Date: 18-Novembre 2015
+
+		---- FEUILLE DE STYLE ----*/
+
+
+.navbar-fixed-top{
+	background-color: white;
+	min-height: 100px;
+	border-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #ab1e00;
+}
+
+.navbar-collapse > ul > li > a{
+	color: #ab1e00;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+
+}
+.navbar-collapse > ul > li > a:hover{
+background-color: #ab1e00;
+color: white;
+}
+
+.navbar-collapse > ul > .open > a:hover{
+background-color: #ab1e00;
+color: white;
+}
+
+.navbar-collapse > ul > .open > ul {
+
+border-radius: 3px;
+}
+
+.navbar-collapse > ul > .open > ul > li > a:hover{
+background-color: #ab1e00;
+color: white;
+border-radius: 3px;
+}
+
+.col-lg-12 > .page-header{
+	color: #ab1e00;
+}
+.navbar-right{
+ padding-top: 15px;
+}
+.navbar-right > li > a{
+	border-radius: 3px;
+}
+.page-header{
+padding-top: 15px;
+color: #ab1e00;
+}
+.open > a:hover{
+background-color: white;
+color: #ab1e00;
+}
+
+.panel-body > .btn-default:hover{
+background-color: #ab1e00;
+color: white;
+border: none;
+}
+.dropdown  > .dropdown-toggle:active{
+background-color: white;
+color: #ab1e00
+}
+
+.mypanel{
+min-height: 300px;
+}
+
+.mypanel > .panel-body > a{
+margin-bottom: 20px
+}
+
+.mynavtab > li > a{
+color: #7c7c7c;
+min-height: 125px;
+}
+
+.mynavtab > li > a:hover{
+color: #ab1e00;
+}
+.mynavtab > .active > a > h4{
+color: #d52500;
+background-color: white;
+text-decoration: underline;
+}
+#mytab
+{
+	min-height: 200px; 
+}
+
+.tab-projets > .active > a > h4{
+color: #d52500;
+background-color: white;
+text-decoration: underline;
+}
+
+
+.navbar-header > .navbar-toggle > span {
+background-color: black;
+}
+
+.tab-pane > .row > .col-md-4 {
+text-decoration: none;
+}
+
+.tab-pane > .row > .col-md-4  > span{
+text-align: center;
+visibility: hidden;
+}
+.tab-pane > .row > .col-md-4 > span > h3{
+background-color: #ab1e00;
+color: white;
+}
+
+.tab-pane > .row > .col-md-4 > img:hover + span {
+visibility: visible;
+}
+
+.imagette_maison > span > h5{
+	font: medium;
+	color: black;
+	text-align: center;
+} 
+
+.liens_villas{
+	margin-bottom: 0px;
+	margin-top: 50px;	 
+}
+
+.liens_villas   .col-md-3 a{
+	text-decoration:none;
+	color: black;
+}
+.liens_villas   .col-md-3 a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+.breadcrumb{
+	margin-bottom: 0px;
+}
+
+.ligne_liens_villas{
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#map_canvas {
+            height: 400px;
+            width: 100%;
+			}
+			
+#map_canvas2 {
+            height: 400px;
+            width: 100%;
+			}
+			
+#map_canvas3{
+            height: 400px;
+            width: 100%;
+			}
+			
+#map_canvas4 {
+            height: 400px;
+            width: 100%;
+			}
+			
+#map_canvas5 {
+            height: 400px;
+            width: 100%;
+			}
+			
+#map_canvas6 {
+            height: 400px;
+            width: 100%;
+			}	
+			
+.footer-distributed{
+	background-color: #ab1e00;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px Arial;
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3, h2{
+	color:  white;
+	font: normal 36px Arial, cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  white;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+	font-size: small;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  white;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+.modal-footer {	border-top: 0px; }
+
+.photo-container{
+	width: 75%;
+	height: auto;
+	margin-left: auto;
+	margin-top: 50px
+}
+
+.logo_societe{
+	width: 90%;
+	height: auto;
+	margin-left: 0px;
+	text-align: center;
+	position: center;
+}
+
+.image_plan_venise{
+	width: 390px;
+}
+
+.plan_de_masse  > .caption > h5{
+	
+	text-align: center;
+}
+
+.geolocal  > .caption > h5{
+	text-align: center;
+}
+
+.qui_sommes_nous_content{
+	font-size: 15px;
+}
+
+.breadcrumb{
+	
+	margin-top: 55px;
+}
+	
+.manif_interet{
+	font-size: small;
+	display: inline-block;
+	margin-top: 7px;
+}
+.text-primary{
+	color: #ab1e00;
+}
+.pat_dispo  > .caption > h5 {
+	margin-top: 50px;
+}
+.pat_dispo  > .caption > h5  > span{
+	text-decoration: none;
+	color: gray;
+	font-size: 10px;
+}

@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /bin/
+Disallow: /css/
+Disallow: /download/
+Disallow: /font-awesome/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /includes/
+Disallow: /js/
+Disallow: /lightbox-master/
+Disallow: /en_construction.php
+Disallow: /403.html
+Disallow: /404.html
+Disallow: /500.html
+Sitemap: http://www.belledemeure-ci.com/sitemap.xml
