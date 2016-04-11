@@ -1,0 +1,13 @@
+je mets quelque chose dedans
+mais en fait
+je met juste un peu de charabia
+
+<<<<<<< HEAD
+je continue et je met encore des lignes de texte
+
+
+blablalbla
+blaobaloblaboaob
+=======
+je continue et je met encore des lignes de texte
+>>>>>>> parent of 527eebb... commit test 3
