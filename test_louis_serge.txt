@@ -13,3 +13,4 @@ je continue et je met encore des lignes de texte
 >>>>>>> parent of 527eebb... commit test 3
 
 qkljdfkmljzlkmfjmqklzdf
+lqkdjfmkajzmokfj	zmoe
